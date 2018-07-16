@@ -1,0 +1,21 @@
+{
+  "name": "mysqldb",
+  "version": "0.0.1",
+  "private": true,
+  "failoverReadConnectionLimit": 5,
+  "debug": false,
+  "description": "A module for common functions for accessing mysql to be used by  other modules ",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.13.4",
+    "mysql": "latest",
+    "node-uuid": "latest",
+    "crypto": "latest",
+    "async": "latest",
+    "config": "file:../../configuration-utility"
+  }
+}

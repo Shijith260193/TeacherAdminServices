@@ -1,0 +1,13 @@
+{
+  "name": "utility",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An module for common error handling and standard error types",
+  "main": "utility.js",
+  "author": "Shijith Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "node-uuid": "latest",
+    "node-datetime": "latest"
+  }
+}

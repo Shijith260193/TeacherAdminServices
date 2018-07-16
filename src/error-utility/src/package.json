@@ -1,0 +1,12 @@
+{
+  "name": "errors",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An module for common error handling and error types used",
+  "main": "./lib/errors.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "avinash@digitalapicraft.com",
+  "license": "ISC"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An module for common error handling and standard error types",
+  "main": "config.js",
+  "author": "Avinash Pise",
+  "license": "ISC"
+}
