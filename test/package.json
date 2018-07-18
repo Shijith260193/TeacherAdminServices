@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Testing suit using mocha chai",
+  "main": "AdminServiceTest.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha AdminServiceTest"
+  },
+  "author": "Shijith Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "chai-like": "^1.1.1",
+    "chai-things": "^0.2.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
+}
