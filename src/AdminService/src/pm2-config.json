@@ -6,7 +6,7 @@
         "exec_mode"      : "cluster",
         "instances"      : "max",
         "node_args"      : "--max_old_space_size=8192",
-        "env_develop": {
+        "env_development": {
           "NODE_ENV"     : "develop",
           "PORT"         : 3000
         }  
