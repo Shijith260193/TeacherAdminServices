@@ -1,7 +1,7 @@
 /*
- * Created by Avinash on 05/30/18.
+ * Created by Shijith on 05/30/18.
  * This module Connects to DB
- * */
+ */
 
 /*eslint-disable */
 
@@ -44,15 +44,6 @@ const failover_read_pool = mysql.createPool({
 });
 
 
-
-// var nextTick = process.nextTick;
-//
-// process.nextTick = function (callback) {
-//     if (typeof callback !== 'function') {
-//         console.trace(typeof callback + ' is not a function');
-//     }
-//     return nextTick(callback);
-// };
 
 function getReadConnection(callback) {
     read_pool.getConnection(function (err, conn) {

@@ -27,7 +27,7 @@ app.use((req,res,next)=>{
 app.options('*', cors());
 
 /**Setting the Base path for DAC OB */
-app.use('/openbanking/v1/accounts/',route);
+app.use('/api/',route);
 
 
 const server = app.listen(app.get('port'), () => {

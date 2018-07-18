@@ -4,14 +4,13 @@
 
 var mySqlConnection= {
     databaseType:'mysql',
-    host: '35.226.7.96',
-    user:'root',
-    password:'root',
+    host: 'localhost',
+    user:'admin',
+    password:'adminPass',
     connectionLimit:10,
-    database:'openbanking',
+    database:'Academy',
     debug:false,
-    connectTimeout:2000,
-    ssl:'Amazon RDS',
+    connectTimeout:2000
 };
 
 
